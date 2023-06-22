@@ -6,8 +6,7 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 ## Data Modeling
 
-Below is a sketch of my database
-https://github.com/jnh17331/EmployeeSQL/ERD/ERD_Sketch.JPG
+The ERD Folder contains a sketch of the database
 
 ## Data Engineering
 
