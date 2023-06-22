@@ -1,0 +1,34 @@
+"departments"
+--
+dept_no INT PK
+dept_name VAR
+
+"titles"
+--
+title_id INT PK
+title VAR
+
+"dept_emp"
+--
+dept_no INT PK FK >- departments.dept_no
+emp_no INT FK >- employees.emp_no
+
+"salaries"
+--
+emp_no INT PK FK >- employees.emp_no
+salary INT
+
+"dept_manager"
+--
+dept_no INT PK FK >- departments.dept_no
+emp_no INT FK >- employees.emp_no
+
+"employees"
+--
+emp_no INT pk 
+emp_title VAR FK >- titles.title_id
+birth_date DATE
+first_name VAR
+last_name VAR
+sex VAR
+hire_date DATE
